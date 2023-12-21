@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Outfit:wght@400;600;700;800&family=Poppins:wght@200;300;400;500;600&family=Ubuntu&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  width: 100%;
+  font-family: Outfit;
+}
+.container {
+  width: 90%;
+  max-width: 470px;
+  background: linear-gradient(135deg, #00feba, #5b548a);
+  color: #fff;
+  margin: 100px auto 10px;
+  border-radius: 20px;
+  padding: 40px 35px;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.header input {
+  width: 70%;
+  height: 50px;
+  font-size: 18px;
+  padding: 20px 15px;
+  border-radius: 40px;
+  border: 0;
+  outline: 0;
+}
+.header button {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 0;
+  cursor: pointer;
+}
+
+.header button img {
+  width: 18px;
+}
+
+#temp {
+  font-size: 60px;
+  font-weight: 800;
+  margin-top: -15px;
+}
+#city {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.weadet {
+  display: flex;
+}
+
+.weadet img {
+  width: 60px;
+  margin-right: 15px;
+}
+
+.weadet p {
+  font-size: 18px;
+}
